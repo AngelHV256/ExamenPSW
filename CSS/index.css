@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin:0;
+    color: #000000;
+    text-align:center;
+}
+
+html{
+    background-color: #C9DBBA;
+    align-self: center;
+    margin:0px;
+	background-size: 100% 110%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main-container{
+    border: 2px solid #FAA381;
+    border-radius: 20px;
+    margin: 1rem;
+    text-align: center;
+    align-items: center;
+}
+
+div{
+    width: max-content;
+    display: inline-block;
+    background-color: #F5CDA7;
+}
+
+.page{
+    border: 2px solid;
+    margin: 1rem;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.login {
+    margin:0 auto;
+    max-width:500px;
+}
+
+.login-form{
+    border:.5px solid #fff;
+    width: 400px;
+    border-radius:20px;
+    box-shadow:0px 0px 5px #000;
+    box-sizing:border-box;
+    padding-top:15px;
+	padding-bottom:1%;
+    margin:5% auto;
+    text-align: center;
+}
+
+.login input[type="text"], .login input[type="password"] {
+    max-width:700px;
+    width: 80%;
+    line-height:3em;
+    font-family: 'Ubuntu', sans-serif;
+    margin:1em 1em;
+    border-radius:5px;
+    border:2px solid #f2f2f2;
+    outline:none;
+    padding-left:5px;
+}
+
+.login-form input[type="button"] {
+    height:30px;
+    width:100px;
+    background:#fff;
+    border:1px solid #f2f2f2;
+    border-radius:20px;
+    text-transform:uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    cursor:pointer;
+}
+
+footer{
+    border: 2px solid;
+    margin: 1rem;
+    border-radius: 20px;
+    padding: 1rem;
+    width: max-content;
+    display: inline-block;
+    background-color: #F5CDA7;
+}
