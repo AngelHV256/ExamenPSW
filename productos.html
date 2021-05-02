@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="./CSS/productos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="contenido-header">
+                <img src="./IMG/LOGO_E_PSW.png" width="500" height="200">
+            </div>
+        </header>
+        <br>
+        <div class="products">
+            <div class="products-header">
+                <h2>Agregar productos</h2>
+            </div>
+            <br>
+            <div class="products-form">
+                <form>
+                    <div>
+                        <label>
+                            <h3>Nombre del producto:</h3>
+                        </label>
+                        <input type="text" placeholder="Nombre del producto" name="nombre_producto" size="20">
+                        <br>
+                    </div>
+                    <br>
+                    <div>
+                        <label>
+                            <h3>Tipo de helado:</h3>
+                        </label>
+                        <input type="text" placeholder="Tipo de helado" name="tipo_helado" size="20">
+                        <br>
+                    </div>
+                    <br>
+                    <div>
+                        <label>
+                            <h3>Gramos:</h3>
+                        </label>
+                        <input type="text" placeholder="Gramos" name="gramos" size="5">
+                        <br>
+                    </div>
+                    <br>
+                    <div>
+                        <label>
+                            <h3>Tamaño:</h3>
+                        </label>
+                        <input type="text" placeholder="Tamaño" name="tamaño" size="20">
+                        <br>
+                    </div>
+                    <br>
+                    <div>
+                        <label>
+                            <h3>Tipo de envase:</h3>
+                        </label>
+                        <input type="radio" name="tenvase" value="1">Cono
+                        <br>
+                        <input type="radio" name="tenvase" value="2">Vaso
+                        <br>
+                        <input type="radio" name="tenvase" value="3">Bote
+                        <br>
+                    </div>
+                    <br>
+                    <div>
+                        <label>
+                            <h3>Precio:</h3>
+                        </label>
+                        <input type="number" placeholder="Precio" name="precio" size="10">
+                        <br>
+                    <div class="button">
+                    <input type="submit" value="Enviar">
+                    <br>
+                    <input type="reset" value="Borrar">
+                    </div>
+                </form>
+            </div>
+            <br>
+            <div class="products-header">
+                <h2>Editar productos</h2>
+            </div>
+            <br>
+            <div class="products-form">
+                <form>
+                    <div>
+                        <label>
+                            <h3>Seleccione el producto a editar:</h3>
+                        </label>
+                        <select name="productoe">
+                            <option>Aqui va una opción</option>
+                        </select>
+                        <br>
+                    </div>
+                    <br>
+                    <div>
+                        <label>
+                            <h3>Nuevo nombre del producto:</h3>
+                        </label>
+                        <input type="text" placeholder="Tamaño" name="tamaño" size="20">
+                        <br>
+                    </div>
+                    <br>
+                    <div>
+                        <label>
+                            <h3>Nuevo tipo de helado:</h3>
+                        </label>
+                        <input type="text" placeholder="Tipo de helado" name="tipo_helado" size="20">
+                        <br>
+                    </div>
+                    <br>
+                    <div>
+                        <label>
+                            <h3>Nueva cantidad de gramos:</h3>
+                        </label>
+                        <input type="text" placeholder="Gramos" name="gramos" size="5">
+                        <br>
+                    </div>
+                    <br>
+                    <div>
+                        <label>
+                            <h3>Nuevo tamaño:</h3>
+                        </label>
+                        <input type="text" placeholder="Tamaño" name="tamaño" size="20">
+                        <br>
+                    </div>
+                    <br>
+                    <div>
+                        <label>
+                            <h3>Nuevo tipo de envase:</h3>
+                        </label>
+                        <input type="radio" name="tenvase" value="1">Cono
+                        <br>
+                        <input type="radio" name="tenvase" value="2">Vaso
+                        <br>
+                        <input type="radio" name="tenvase" value="3">Bote
+                        <br>
+                    </div>
+                    <br>
+                    <div>
+                        <label>
+                            <h3>Nuevo precio:</h3>
+                        </label>
+                        <input type="number" placeholder="Precio" name="precio" size="10">
+                        <br>
+                    <div class="button">
+                    <input type="submit" value="Cambiar">
+                    <br>
+                    <input type="reset" value="Borrar">
+                    </div>
+                </form>
+            </div>
+            <div class="products-form">
+                <div class="products-header">
+                    <h2>Eliminar productos</h2>
+                </div>
+                <br>
+                <br>
+                <form>
+                    <div>
+                        <label>
+                            <h3>Seleccione el producto a eliminar:</h3>
+                        </label>
+                        <select name="productoae">
+                            <option>Aqui va una opción</option>
+                        </select>
+                        <br>
+                    </div>
+                    <br>
+                    <div class="button">
+                    <input type="submit" value="Eliminar producto">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <footer>
+                    Granados Martínez Pablo Daniel
+                    <br>
+                    Hernández Velasco Angel Gabriel
+                    <br>
+                    Reynoso Cortés Oscar
+            </footer>
+        </div>
+    </div>
+</body>    
+</html>
