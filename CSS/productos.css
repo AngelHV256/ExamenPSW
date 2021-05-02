@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin:0;
+    color: #000000;
+}
+
+html{
+    background-color: #C9DBBA;
+	background-size: 100% 110%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header{
+    text-align: center;
+}
+
+div{
+    width: max-content;
+    display: inline-block;
+    background-color: #F5CDA7;
+}
+
+.page{
+    border: 2px solid;
+    margin: 1rem;
+    border-radius: 20px;
+    padding: 1rem;
+    width: 90%;
+}
+
+.products {
+    margin:0 auto;
+    max-width:800px;
+}
+
+.products-form{
+    width: 500px;
+    padding-top:15px;
+	padding-bottom:1%;
+    margin:5% auto;
+}
+
+.products input[type="text"], .products input[type="date"], .products input[type="tel"], .products input[type="email"], .products input[type="number"], select{
+    height:30px;
+    max-width:700px;
+    width: 80%;
+    line-height:3em;
+    font-family: 'Ubuntu', sans-serif;
+    margin:1em 1em;
+    border-radius:5px;
+    border:2px solid #f2f2f2;
+    outline:none;
+    padding-left:5px;
+}
+
+.products-form input[type="submit"] {
+    text-align: center;
+    height:40px;
+    width:150px;
+    margin:1em 1em;
+    background:#fff;
+    border:1px solid #f2f2f2;
+    border-radius:20px;
+    text-transform:uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    cursor:pointer;
+
+}
+
+.products-form input[type="reset"]  {
+    text-align: center;
+    height:40px;
+    width:100px;
+    margin:1em 1em;
+    background:#fff;
+    border:1px solid #f2f2f2;
+    border-radius:20px;
+    text-transform:uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    cursor:pointer;
+}
+
+.footer{
+    text-align: center;
+    display: inline;
+    width: max-content;
+}
