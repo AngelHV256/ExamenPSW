@@ -40,7 +40,7 @@ div{
     margin:5% auto;
 }
 
-.register input[type="text"], .register input[type="tel"], .register input[type="email"]{
+.register input[type="text"], .register input[type="date"], .register input[type="tel"], .register input[type="email"]{
     height:30px;
     max-width:700px;
     width: 80%;
