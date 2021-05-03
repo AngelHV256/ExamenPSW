@@ -28,7 +28,7 @@ div{
     width: 95%;
 }
 
-.compra {
+.compra, .metodo-pago {
     margin:0 auto;
     max-width:800px;
 }
@@ -40,7 +40,7 @@ div{
     margin:5% auto;
 }
 
-.compra input[type="text"], .compra input[type="tel"], .compra input[type="email"], .compra input[type="number"]{
+.compra input[type="text"], .compra input[type="tel"], .compra input[type="email"], .compra input[type="number"], .datos-pago input[type="text"], .datos-pago input[type="date"], .datos-pago input[type="number"]{
     height:30px;
     max-width:700px;
     width: 80%;
@@ -53,7 +53,7 @@ div{
     padding-left:5px;
 }
 
-.compra-form input[type="submit"] {
+.datos-pago input[type="submit"], .compra-form input[type="submit"] {
     text-align: center;
     height:40px;
     width:150px;
